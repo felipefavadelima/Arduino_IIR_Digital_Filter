@@ -2,6 +2,8 @@
 
 When a signal with a frequency of 70Hz is injected into the arduino input A0, the arduino LED (pin 13) lights up. 
 
+First the signal is filtered through a resonator set to the frequency of 70Hz, then the signal is rectified, and finally, the signal passes through a 0.5Hz low-pass filter. The output signal is tested, if it is higher than a certain threshold, the led on pin 13 lights up. 
+
 To create "Ress70Hz.ino":
 
 Step 1:Create Coeffs.npy (See Example 'GenCoeffs.py')
