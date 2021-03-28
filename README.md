@@ -1,6 +1,6 @@
 # Arduino IIR Digital Filter code generator
 
-This repository contains the following files: 
+This repository contains the following files:
 
 
  "scr\LPButter.py" - Low pass ButterWoth Arduino code generator
@@ -13,6 +13,11 @@ This repository contains the following files:
  
  "scr\FilterFromCoeffs.py" - Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
  
+ 
+ 
+ 
+ 
+ 
 #Python Prerequisites:
 
  Python >= 3.0
@@ -22,6 +27,8 @@ This repository contains the following files:
  python numpy package (https://numpy.org/install/)
  
  python matplotlib package(https://matplotlib.org/stable/users/installing.html)
+ 
+ 
  
  
  
