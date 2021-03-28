@@ -40,7 +40,10 @@ In the examples, the analog input signal of the filter is obtained from the A0 p
 
 ### Filter Testing:
 
-The electronic circuit shown in 'PCAudioCircuit / Schematic.jpg' can be used to connect the sound output of a computer to the Arduino in order to test the projected filters. It is worth remembering that in an Arduino Nano, for an eighth-order filter, the maximum sampling frequency that can be used is 1000Hz. Thus, the signals that can be injected into the filter input must have components up to 500Hz, according to the Nyquist-Shannon sampling theorem 
+The electronic circuit shown in 'PCAudioCircuit / Schematic.jpg' can be used to connect the sound output of a computer to the Arduino in order to test the projected filters. It is worth remembering that in an Arduino Nano, for an eighth-order filter, the maximum sampling frequency that can be used is 1000Hz. Thus, the signals that can be injected into the filter input must have components up to 500Hz, according to the Nyquist-Shannon sampling theorem.
+
+An online tone generator can be used for testing, such as: 
+[links](https://www.szynalski.com/tone-generator/)
 
 ### Basic Usage
 Briefly, the '.ino' files with the 'xxx_Update ()' function are generated as follows: 
