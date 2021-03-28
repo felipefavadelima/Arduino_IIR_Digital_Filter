@@ -47,7 +47,7 @@ Briefly, the '.ino' files with the 'xxx_Update ()' function are generated as fol
 
 #### python BSButter.py BS 4 50 100 1000
 
-This command produces a 'BS.ino' file that has the function 'BS_Update ()'. This function is used to implement a fourth-order bandpass filter with cutoff frequencies from 50Hz to 100Hz, and the filter data update rate will be 1000Hz (Sampling frequency). 
+This command produces a 'BS.ino' file that has the function 'BS_Update ()'. This function is used to implement a Butterworth fourth-order bandpass filter with cutoff frequencies from 50Hz to 100Hz, and the filter data update rate will be 1000Hz (Sampling frequency). 
 
 
 
