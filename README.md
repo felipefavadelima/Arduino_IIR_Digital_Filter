@@ -26,7 +26,9 @@ Generates Arduino code to implement IIR digital filter
  
 ### Arduino Prerequisites:
 
-TimerOne library (https://www.arduino.cc/reference/en/libraries/timerone/)
+[Arduino IDE](https://www.arduino.cc/en/software)
+
+[TimerOne library](https://www.arduino.cc/reference/en/libraries/timerone/)
 
 The sample codes were tested on Arduino nano.
 
