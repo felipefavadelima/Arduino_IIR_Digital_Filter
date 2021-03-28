@@ -16,13 +16,13 @@ Generates Arduino code to implement IIR digital filter
  
 ### Python Prerequisites:
 
-Python >= 3.0
+[Python >= 3.0](https://www.python.org/)
  
-python scipy package (https://www.scipy.org/install.html)
+[python scipy package](https://www.scipy.org/install.html)
  
-python numpy package (https://numpy.org/install/)
+[python numpy package](https://numpy.org/install/)
  
-python matplotlib package(https://matplotlib.org/stable/users/installing.html)
+[python matplotlib package](https://matplotlib.org/stable/users/installing.html)
  
 ### Arduino Prerequisites:
 
@@ -42,8 +42,7 @@ In the examples, the analog input signal of the filter is obtained from the A0 p
 
 The electronic circuit shown in 'PCAudioCircuit / Schematic.jpg' can be used to connect the sound output of a computer to the Arduino in order to test the projected filters. It is worth remembering that in an Arduino Nano, for an eighth-order filter, the maximum sampling frequency that can be used is 1000Hz. Thus, the signals that can be injected into the filter input must have components up to 500Hz, according to the Nyquist-Shannon sampling theorem.
 
-An online tone generator can be used for testing, such as: 
-[links](https://www.szynalski.com/tone-generator/)
+An [online](https://www.szynalski.com/tone-generator/) tone generator can be used for testing. 
 
 ### Basic Usage
 Briefly, the '.ino' files with the 'xxx_Update ()' function are generated as follows: 
