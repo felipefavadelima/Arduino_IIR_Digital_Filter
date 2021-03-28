@@ -3,38 +3,29 @@
 ## This repository contains the following files:
 
 
- #"scr\LPButter.py" - Low pass ButterWoth Arduino code generator
+"scr\LPButter.py" - Low pass ButterWoth Arduino code generator
  
- #"scr\HPButter.py" - High pass ButterWoth Arduino code generator
+"scr\HPButter.py" - High pass ButterWoth Arduino code generator
  
- #"scr\BPButter.py" - Band pass ButterWoth Arduino code generator
+"scr\BPButter.py" - Band pass ButterWoth Arduino code generator
  
- #"scr\BSButter.py" - Stop Band ButterWoth Arduino code generator
+"scr\BSButter.py" - Stop Band ButterWoth Arduino code generator
  
- #"scr\FilterFromCoeffs.py" - Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
+"scr\FilterFromCoeffs.py" - Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
  
- 
- 
- 
- 
- 
-# Python Prerequisites:
+## Python Prerequisites:
 
-- Python >= 3.0
+Python >= 3.0
  
- - python scipy package (https://www.scipy.org/install.html)
+python scipy package (https://www.scipy.org/install.html)
  
- - python numpy package (https://numpy.org/install/)
+python numpy package (https://numpy.org/install/)
  
- - python matplotlib package(https://matplotlib.org/stable/users/installing.html)
+python matplotlib package(https://matplotlib.org/stable/users/installing.html)
  
- 
- 
- 
- 
-Arduino Prerequisites:
+## Arduino Prerequisites:
 
- TimerOne library (https://www.arduino.cc/reference/en/libraries/timerone/)
+TimerOne library (https://www.arduino.cc/reference/en/libraries/timerone/)
 
 The sample codes were tested on Arduino nano.
 
