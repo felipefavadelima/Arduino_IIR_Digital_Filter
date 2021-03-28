@@ -1,17 +1,17 @@
 # Arduino IIR Digital Filter code generator
 
-# This repository contains the following files:
+## This repository contains the following files:
 
 
- -"scr\LPButter.py" - Low pass ButterWoth Arduino code generator
+ #"scr\LPButter.py" - Low pass ButterWoth Arduino code generator
  
- -"scr\HPButter.py" - High pass ButterWoth Arduino code generator
+ #"scr\HPButter.py" - High pass ButterWoth Arduino code generator
  
- -"scr\BPButter.py" - Band pass ButterWoth Arduino code generator
+ #"scr\BPButter.py" - Band pass ButterWoth Arduino code generator
  
- -"scr\BSButter.py" - Stop Band ButterWoth Arduino code generator
+ #"scr\BSButter.py" - Stop Band ButterWoth Arduino code generator
  
- -"scr\FilterFromCoeffs.py" - Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
+ #"scr\FilterFromCoeffs.py" - Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
  
  
  
