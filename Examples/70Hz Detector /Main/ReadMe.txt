@@ -1,4 +1,4 @@
-#Example of 70 Hz Resosnator IIR filter
+#Example of 70 Hz Detector
 
 To create "Ress70Hz.ino":
 
