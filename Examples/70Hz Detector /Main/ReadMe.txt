@@ -1,4 +1,6 @@
-#Example of 70 Hz Detector
+# Example of 70 Hz Detector
+
+When a signal with a frequency of 70Hz is injected into the arduino input A0, the arduino LED (pin 13) lights up. 
 
 To create "Ress70Hz.ino":
 
