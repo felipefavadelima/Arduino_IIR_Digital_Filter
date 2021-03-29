@@ -24,7 +24,7 @@ Generates Arduino Code to implement IIR digital filters
 
 [TimerOne library](https://www.arduino.cc/reference/en/libraries/timerone/)
 
-#### The sample codes were tested on Arduino NANO.
+#### The exemple codes were tested on Arduino NANO.
 
 ### Examples:
 
