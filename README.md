@@ -95,6 +95,8 @@ Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequ
 
 "Examples/filterFromTF/PolesZerosRessonator"
 
+## Filter implementation:
 
+Filters are implemented as second-order cascade systems ([BIQUADS](https://en.wikipedia.org/wiki/Digital_biquad_filter)) using direct form II.
 
 
