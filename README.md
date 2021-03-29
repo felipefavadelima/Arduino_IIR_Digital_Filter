@@ -28,6 +28,8 @@ Generates Arduino Code to implement IIR digital filter
 
 ### Examples:
 
+Youtube Video (Portuguese): https://youtu.be/UTvz-jzcjqM 
+
 Within the examples folder there is a short instruction on how to generate the '.ino' file for each type of filter. 
 
 The generated '.ino' file has a function of type 'xxx_Update (float x)' which is responsible for updating the filter output. In the examples, the 'Main.ino' files give an example of how to use it. 
