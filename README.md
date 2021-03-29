@@ -1,6 +1,6 @@
 # Arduino IIR Digital Filter code generator
 
-Generates Arduino Code to implement IIR digital filters
+Automatic Arduino Code Generator for IIR Filters 
 
 ### This repository contains the following main programs:
 
