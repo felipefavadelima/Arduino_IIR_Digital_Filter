@@ -56,7 +56,7 @@ An [online](https://www.szynalski.com/tone-generator/) tone generator can be use
 
 	**Name** - Filter Name (will determine the name of the final .ino file)
 
-	**N **- Filter Order
+	**N**- Filter Order
 
 	**Fc_Hz** - Cutoff Frequency (-3dB)
 
