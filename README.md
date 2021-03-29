@@ -40,7 +40,7 @@ The electronic circuit shown in 'PCAudioCircuit / Schematic.jpg' can be used to 
 
 An [online](https://www.szynalski.com/tone-generator/) tone generator can be used for testing. 
 
-**After designing the desired filter always check the execution time of the function 'xxx_Update ()' in order to verify that the configured sampling frequency is being obtained correctly **
+**After designing the desired filter always check the execution time of the function 'xxx_Update ()' in order to verify that the configured sampling frequency is being obtained correctly**
 
 ## Basic Usage
 
