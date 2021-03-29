@@ -88,6 +88,7 @@ Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequ
 ## Filter from tranfer function:
 
 - It is possible to obtain code for Arduino from the transfer function of the desired filter using a program "filterFromTF.py".
+
 **See examples:**
 
 "Examples/filterFromTF/RCFilterLowPass"
