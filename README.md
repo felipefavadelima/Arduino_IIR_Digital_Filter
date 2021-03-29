@@ -2,6 +2,8 @@
 
 Automatic Arduino Code Generator for IIR Filters. 
 
+Tutorial video (portuguese): https://youtu.be/HoFn65hA1ho
+
 ## **Main programs:**
 
 - **butter.py** - program that automatically generates Arduino code for Butterworth filter  (Low-pass, High-Pass, Band-pass or Stop-Band).

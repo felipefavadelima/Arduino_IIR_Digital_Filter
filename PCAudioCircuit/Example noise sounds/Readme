@@ -1,0 +1,8 @@
+Example sounds used on:  https://youtu.be/HoFn65hA1ho
+
+AudioGen.m - Octave GNU script to generate sounds
+
+BP.wave - Noise sound without 150-200 frequencies
+LP.wave - Noise sound without 0 -150 frequencies
+Ress.wav - Noise sound without 150 frequency
+
