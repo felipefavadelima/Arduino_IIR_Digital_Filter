@@ -24,7 +24,7 @@ Automatic Arduino Code Generator for IIR Filters
 
 [TimerOne library](https://www.arduino.cc/reference/en/libraries/timerone/)
 
-**The exemple codes were tested on Arduino NANO.**
+**The exempla codes were tested on Arduino NANO.**
 
 ## Examples Folder:
 
