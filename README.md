@@ -2,7 +2,7 @@
 
 Automatic Arduino Code Generator for IIR Filters 
 
-## ** Main programs:**
+## **Main programs:**
 
 - **butter.py** - program that automatically generates Arduino code for Butterworth filter  (Low-pass, High-Pass, Band-pass, Stop-Band)
  
@@ -62,17 +62,22 @@ An [online](https://www.szynalski.com/tone-generator/) tone generator can be use
 	**Fc1_Hz Fc2_Hz** - Cutoff frequencies (-3dB)
 
 ## Butterworth filters desing Examples:
-1. Low Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency:
-** "python butter.py low LP 4 150 1000**"
 
-1. High Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
- **"python butter.py high HP 4 150 1000"**
+Low Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency:
 
-1. Band-pass fourth order, 150Hz to 200Hz band-pass frequency, 1000Hz samplig frequency: 
-**"python butter.py pass BP 4 150 200 1000"**
+**python butter.py low LP 4 150 1000**
 
-1. Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequency:
-**"python butter.py stop SB 4 150 200 1000**"
+High Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
+
+ **python butter.py high HP 4 150 1000**
+
+Band-pass fourth order, 150Hz to 200Hz band-pass frequency, 1000Hz samplig frequency: 
+
+**python butter.py pass BP 4 150 200 1000**
+
+Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequency:
+
+**python butter.py stop SB 4 150 200 1000**
 
 
 ## Filter from tranfer function:
