@@ -44,22 +44,22 @@ An [online](https://www.szynalski.com/tone-generator/) tone generator can be use
 
 ### Basic Usage
 
-## Butterworth filters:
+#### Butterworth filters:
 
 Low Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
-#### "python butter.py low LP 4 150 1000"
+##### "python butter.py low LP 4 150 1000"
 
 High Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
-#### "python butter.py high HP 4 150 1000"
+##### "python butter.py high HP 4 150 1000"
 
 Band-pass fourth order, 150Hz to 200Hz band-pass frequency, 1000Hz samplig frequency: 
-#### "python butter.py pass BP 4 150 200 1000"
+##### "python butter.py pass BP 4 150 200 1000"
 
 Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequency
-#### "python butter.py stop SB 4 150 200 1000"
+##### "python butter.py stop SB 4 150 200 1000"
 
 
-## Filter from tranfer function:
+#### Filter from tranfer function:
 
 It is possible to obtain code for Arduino from the transfer function of the desired filter using a program "filterFromTF.py". See examples "Examples/filterFromTF/RCFilterLowPass" and "Examples/filterFromTF/PolesZerosRessonator"
 
