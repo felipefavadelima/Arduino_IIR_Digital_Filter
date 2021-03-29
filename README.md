@@ -55,10 +55,15 @@ An [online](https://www.szynalski.com/tone-generator/) tone generator can be use
 - (stop-band): "python butter.py stop Name n Fc1_Hz Fs2_Hz Fs_Hz"
 
 	**Name** - Filter Name (will determine the name of the final .ino file)
+
 	**N **- Filter Order
+
 	**Fc_Hz** - Cutoff Frequency (-3dB)
+
 	**Fp_Hz** - Pass Frequency (-3dB)
+
 	**Fp1_Hz Fp2_Hz** - Band-pass frequencies (-3dB)
+
 	**Fc1_Hz Fc2_Hz** - Cutoff frequencies (-3dB)
 
 ## Butterworth filters desing Examples:
