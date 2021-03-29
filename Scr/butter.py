@@ -130,6 +130,7 @@ if __name__ == "__main__":
                 print('Fs_Hz:', Fs_Hz , 'Hz');
                 #INO Header
                 INOHeader = '//ButterWorth Low Pass Filter\n'
+                INOHeader += '//Author:Felipe Fava de Lima\n'
                 INOHeader += '//Filter Name:' + FName + '\n'
                 INOHeader += '//Filter Order:' + str(FN) + '\n'
                 INOHeader += '//Filter cutoff frequency (-3dB):' + str(Fc_Hz) + 'Hz\n'
@@ -150,6 +151,7 @@ if __name__ == "__main__":
                 print('Fs_Hz:', Fs_Hz , 'Hz');
                 #INO Header
                 INOHeader = '//ButterWorth High Pass Pass Filter\n'
+                INOHeader += '//Author:Felipe Fava de Lima\n'
                 INOHeader += '//Filter Name:' + FName + '\n'
                 INOHeader += '//Filter Order:' + str(FN) + '\n'
                 INOHeader += '//Filter pass frequency (-3dB):' + str(Fp_Hz) + 'Hz\n'
@@ -172,6 +174,7 @@ if __name__ == "__main__":
                 print('Fs_Hz:', Fs_Hz , 'Hz');
                 #INO Header
                 INOHeader = '//ButterWorth Band Pass Pass Filter\n'
+                INOHeader += '//Author:Felipe Fava de Lima\n'
                 INOHeader += '//Filter Name:' + FName + '\n'
                 INOHeader += '//Filter Order:' + str(FN) + '\n'
                 INOHeader += '//Filter pass frequency 1 (-3dB):' + str(Fp1_Hz) + 'Hz\n'
@@ -196,6 +199,7 @@ if __name__ == "__main__":
                 print('Fs_Hz:', Fs_Hz , 'Hz');
                 #INO Header
                 INOHeader = '//ButterWorth Stop Band Filter\n'
+                INOHeader += '//Author:Felipe Fava de Lima\n'
                 INOHeader += '//Filter Name:' + FName + '\n'
                 INOHeader += '//Filter Order:' + str(FN) + '\n'
                 INOHeader += '//Filter cutoff frequency 1 (-3dB):' + str(Fc1_Hz) + 'Hz\n'

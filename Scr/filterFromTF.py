@@ -119,6 +119,7 @@ if __name__ == "__main__":
         Description = Arguments[4];
         INOHeader = '//' + Description + '\n'
         INOHeader += '//Filter Name:' + FName + '\n'
+        INOHeader += '//Author:Felipe Fava de Lima\n'
         INOHeader += '//Filter samplig frequency:' + str(Fs_Hz) + 'Hz\n\n'
             #print tranfer function
         print('\nFilter Tranfer Function:')
