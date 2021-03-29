@@ -4,9 +4,9 @@ Automatic Arduino Code Generator for IIR Filters
 
 ### This repository contains the following main programs:
 
-"scr\butter.py" - python ButterWoth Filter Arduino code generator (Low-pass, High-Pass, Band-pass, Stop-Band)
+"scr\butter.py" - program that automatically generates Arduino code for Butterworth filter  (Low-pass, High-Pass, Band-pass, Stop-Band)
  
-"scr\filterFromTF.py" - python Filter Arduino code generator from filter transfer function
+"scr\filterFromTF.py" - program that automatically generates Arduino filter code from a transfer function 
  
 ### Python Prerequisites:
 
@@ -32,7 +32,7 @@ Within the examples folder there is a short instruction file 'ReadMe.txt' on how
 
 The generated '.ino' file has a function of type 'xxx_Update (float x)' which is responsible for updating the filter output. In the examples, the 'Main.ino' files give an example of how to use it. 
 
-In the 'Main.INO'examples, the analog input signal of the filter is obtained from the A0 port of the arduino. Both the filter output and the input can be displayed by the serial plotter. 
+In the 'Main.INO' examples, the analog input signal of the filter is obtained from the A0 port of the arduino. Both the filter output and the input can be displayed by the serial plotter. 
 
 ### Filter Testing:
 
