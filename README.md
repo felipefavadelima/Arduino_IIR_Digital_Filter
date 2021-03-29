@@ -61,26 +61,26 @@ An [online](https://www.szynalski.com/tone-generator/) tone generator can be use
 	**Fp1_Hz Fp2_Hz** - Band-pass frequencies (-3dB)
 	**Fc1_Hz Fc2_Hz** - Cutoff frequencies (-3dB)
 
-	**Butterworth filters desing Examples:**
-	Low Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency:
-	** "python butter.py low LP 4 150 1000**"
+## Butterworth filters desing Examples:
+1. Low Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency:
+** "python butter.py low LP 4 150 1000**"
 
-	High Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
-	 **"python butter.py high HP 4 150 1000"**
+1. High Pass fourth order, 150Hz cutoff frequency, 1000Hz samplig frequency: 
+ **"python butter.py high HP 4 150 1000"**
 
-	Band-pass fourth order, 150Hz to 200Hz band-pass frequency, 1000Hz samplig frequency: 
-	**"python butter.py pass BP 4 150 200 1000"**
+1. Band-pass fourth order, 150Hz to 200Hz band-pass frequency, 1000Hz samplig frequency: 
+**"python butter.py pass BP 4 150 200 1000"**
 
-	Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequency:
-	**"python butter.py stop SB 4 150 200 1000**"
+1. Stop-band fourth order, 150Hz to 200Hz stop-band frequency, 1000Hz samplig frequency:
+**"python butter.py stop SB 4 150 200 1000**"
 
 
-**Filter from tranfer function:**
+## Filter from tranfer function:
 
-It is possible to obtain code for Arduino from the transfer function of the desired filter using a program "filterFromTF.py".
-See examples:
-** "Examples/filterFromTF/RCFilterLowPass" **and 
-**"Examples/filterFromTF/PolesZerosRessonato**r"
+- It is possible to obtain code for Arduino from the transfer function of the desired filter using a program "filterFromTF.py".
+**See examples:**
+	 "Examples/filterFromTF/RCFilterLowPass"
+	"Examples/filterFromTF/PolesZerosRessonator"
 
 
 
