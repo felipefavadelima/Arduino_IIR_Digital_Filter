@@ -9,24 +9,21 @@ import cmath
 import math
 import matplotlib.pyplot as plt
 
-#Desing Ressonator from zeros/poles location
+#Desing from Bilinear transform
 
-#Specs
-Fs_Hz = 1000;
-Fress_Hz = 70;
-Wress = Fress_Hz/(Fs_Hz/2);
+#Digital Filter specs
+Fs_Hz = 1000
 
-#Poles desing
-PoleRadius = 0.999
-Poles = [cmath.exp(1j*math.pi*Wress)*PoleRadius , cmath.exp(-1j*math.pi*Wress )*PoleRadius]
+#Analog  RC low pass filter specs(Fc = 10Hz)
+R = 1.6e3
+C = 10e-6
 
-#Zeros desing
-ZeroRadius = 0.8
-Zeros = [cmath.exp(1j*math.pi*Wress)*ZeroRadius , cmath.exp(-1j*math.pi*Wress )*ZeroRadius]
+# s transfer function
+num = 1
+den =[R*C, 1]
 
-#Get TF
-b = np.poly(Zeros)*0.6e-2
-a = np.poly(Poles)
+# s to z - Bilinear transform
+[b,a] = signal.bilinear(num,den,Fs_Hz)
 
 #Show Frequency response
 w,h = signal.freqz(b,a,1000,fs=Fs_Hz);
@@ -45,5 +42,6 @@ plt.ylabel('Phase(degrees)')
 plt.legend(['64bits','32bits'])
 plt.show()
 
-np.save('Coeffs.npy',np.array([b,a]));
+#Save TF
+np.save('TF.npy',np.array([b,a]));
 

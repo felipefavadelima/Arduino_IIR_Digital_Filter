@@ -3,18 +3,14 @@
 //Author:Felipe Fava de Lima
 //03/2021
 
-//70Hz detector example
-//Ressonator 70Hz + Envelope detector 
 
+//150 Hz ressonator
 //Input: Analog A0
-//Input and Output shown on serial plotter
+//Input and Output shown on serial plott
 
 //Samplign Frequency 
 const float Fs = 1000;
 const float tus = (1 / Fs) * 1e6;
-
-//Detector Threshold 
-const float Threshold = 20;
 
 //Filter Input/Output Variable
 float x=0;
@@ -26,12 +22,11 @@ bool UpdateFlag = false;
 //Filter Update function
 void IIRUpdate()
 {
-  y = Ress70Hz_Update(x);
-  y = abs(y);
-  y = LP_Update(y);
+  y = Ress150Hz_Update(x);
+  //Print float is too slow 
+  Serial.print(int(x));
+  Serial.print(',');
   Serial.println(int(y));
-  if(y>Threshold) digitalWrite(13,HIGH);
-  else digitalWrite(13,LOW);
   UpdateFlag = false;
 }
 
@@ -45,7 +40,6 @@ void TimerInt()
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(13,OUTPUT);
   analogReference(INTERNAL);
   Timer1.initialize(tus);
   Timer1.attachInterrupt(TimerInt);

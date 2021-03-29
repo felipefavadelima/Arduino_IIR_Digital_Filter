@@ -1,14 +1,14 @@
 #Example of ButterWorth Band Stop forth order IIR filter
 
 Sampling Frequency = 1000Hz
-Cutoff Frequency 1= 50Hz
-Cutoff Frequency 2= 100Hz
+Cutoff Frequency 1= 150Hz
+Cutoff Frequency 2= 200Hz
 Filter Order = 4
-Filter Name = 'BS'
+Filter Name = 'SB'
 
-To create "BS.ino" run:
+To create "SB.ino" run:
 
-python BSButter.py BS 4 50 100 1000
+python butter.py stop SB 4 150 200 1000
 
 
 

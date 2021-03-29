@@ -1,18 +1,12 @@
 # Arduino IIR Digital Filter code generator
 
-Generates Arduino code to implement IIR digital filter 
+Generates Arduino Code to implement IIR digital filter 
 
-### This repository contains the following files:
+### This repository contains the following main files:
 
-"scr\LPButter.py" - python Low pass ButterWoth Arduino code generator
+"scr\butter.py" - python ButterWoth Filter Arduino code generator (Low-pass, High-Pass, Band-pass, Stop-Band)
  
-"scr\HPButter.py" - python High pass ButterWoth Arduino code generator
- 
-"scr\BPButter.py" - python Band pass ButterWoth Arduino code generator
- 
-"scr\BSButter.py" - python Stop Band ButterWoth Arduino code generator
- 
-"scr\FilterFromCoeffs.py" - python Filter code generator for Arduino by the coefficients (b, a) of the filter transfer function  
+"scr\filterFromTF.py" - python Filter Arduino code generator from filter transfer function
  
 ### Python Prerequisites:
 
@@ -30,7 +24,7 @@ Generates Arduino code to implement IIR digital filter
 
 [TimerOne library](https://www.arduino.cc/reference/en/libraries/timerone/)
 
-The sample codes were tested on Arduino nano.
+#### The sample codes were tested on Arduino NANO.
 
 ### Examples:
 

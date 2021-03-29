@@ -4,7 +4,7 @@
 //03/2021
 
 
-//70 Hz ressonator
+//150 Hz ressonator
 //Input: Analog A0
 //Input and Output shown on serial plott
 
@@ -22,7 +22,7 @@ bool UpdateFlag = false;
 //Filter Update function
 void IIRUpdate()
 {
-  y = Ress70Hz_Update(x);
+  y = RCLP_10Hz_Update(x);
   //Print float is too slow 
   Serial.print(int(x));
   Serial.print(',');

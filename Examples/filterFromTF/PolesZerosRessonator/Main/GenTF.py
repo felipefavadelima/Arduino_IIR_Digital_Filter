@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 #Specs
 Fs_Hz = 1000;
-Fress_Hz = 70;
+Fress_Hz = 150;
 Wress = Fress_Hz/(Fs_Hz/2);
 
 #Poles desing
@@ -45,5 +45,6 @@ plt.ylabel('Phase(degrees)')
 plt.legend(['64bits','32bits'])
 plt.show()
 
-np.save('Coeffs.npy',np.array([b,a]));
+#Save TF
+np.save('TF.npy',np.array([b,a]));
 
